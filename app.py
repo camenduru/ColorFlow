@@ -502,4 +502,4 @@ with gr.Blocks() as demo:
             label="Examples",
             examples_per_page=6,
         )
-demo.launch()
+demo.launch(share=True)
